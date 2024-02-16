@@ -11,7 +11,7 @@ const useFetchData = (endpoint, query) => {
     method: "GET",
     url: `https://local-business-data.p.rapidapi.com/${endpoint}`,
     headers: {
-      "X-RapidAPI-Key": 'e2f92b7451mshb7bc9fcaab526dfp1c6f2cjsn7a345360d20f',
+      "X-RapidAPI-Key": 'RAPIDAPI KEY',
       "X-RapidAPI-Host": 'local-business-data.p.rapidapi.com',
     },
     params: { ...query },
