@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Visit Park",
+    "slug": "react_visit_parks",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/custom-marker.png",
+    "scheme": "visitparks",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/custom-marker.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.jatindevexporeact.react_visit_parks"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0302d40c-2a6e-4eeb-90d2-f9b8614c11d0"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
